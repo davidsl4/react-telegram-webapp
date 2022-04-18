@@ -60,5 +60,11 @@ export default withTelegramWebApp(App, {
 });
 ```
 
+## Useful hooks
+`useStartParam` - return the [start params](https://core.telegram.org/bots/webapps#webappinitdata)
+`useTelegramWebApp` - return the [TelegramWebApp](https://github.com/davidsl4/react-telegram-webapp/blob/ee7861dbfa9f42d42f1a200a33a47c11c59d4a87/src/Telegram/Telegram.d.ts#L4-L99) object
+`useIsTelegramWebAppReady` - returns true if the TelegramWebApp is ready. You can use this to show loading screen
+
+
 ## Contribute
 If you want to contribute to this library, please open an issue or pull request.
