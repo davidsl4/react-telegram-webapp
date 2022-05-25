@@ -1,2 +1,2 @@
-export * from './TelegramWebApp';
-export * from './TelegramWebAppContext';
+export * from "./TelegramWebApp";
+export * from "./TelegramWebAppContext";

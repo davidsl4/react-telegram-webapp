@@ -15,13 +15,13 @@
     "node": ">=10"
   },
   "scripts": {
+    "lint": "tsdx lint",
+    "size": "size-limit",
     "start": "tsdx watch",
     "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
-    "lint": "tsdx lint",
     "prepare": "tsdx build",
-    "size": "size-limit",
-    "analyze": "size-limit --why"
+    "analyze": "size-limit --why",
+    "test": "tsdx test --passWithNoTests"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -32,9 +32,10 @@
     }
   },
   "prettier": {
-    "printWidth": 80,
     "semi": true,
-    "singleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 130,
+    "singleQuote": false,
     "trailingComma": "es5"
   },
   "name": "react-telegram-webapp",
